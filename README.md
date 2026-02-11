@@ -79,3 +79,4 @@ This will create:
 - **ECR Repos**: `dev-frontend-repo`, `dev-backend-repo`
 
 After `apply`, push your code to GitHub to trigger the Actions pipeline, which will build and deploy the containers to Fargate.
+
