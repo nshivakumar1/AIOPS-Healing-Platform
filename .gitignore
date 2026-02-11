@@ -1,0 +1,31 @@
+# OS
+.DS_Store
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+mcp-backend/.env
+mcp-backend/venv/
+*.egg-info/
+
+# Node / Frontend
+node_modules/
+.next/
+frontend-app/node_modules/
+frontend-app/.next/
+frontend-app/.env
+frontend-app/.env.local
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# IDE
+.vscode/
+.idea/
